@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                     StringBuilder sb = new StringBuilder();
                     String line;
                     while((line = br.readLine()) != null) {
-                        sb.append(line).append("\n\r");
+                        sb.append(line).append("\r\n");
                     }
                     messageView.setText(sb.toString());
                     br.close();
