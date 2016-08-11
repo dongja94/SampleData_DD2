@@ -20,7 +20,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ExternalActivity" />
-        <activity android:name=".SharedActivity"></activity>
+        <activity android:name=".SharedActivity" />
+        <activity android:name=".AddressActivity" />
+        <activity android:name=".AddressAddActivity"></activity>
     </application>
 
 </manifest>
