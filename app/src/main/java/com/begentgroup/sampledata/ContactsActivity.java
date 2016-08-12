@@ -116,6 +116,12 @@ public class ContactsActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        mAdapter.changeCursor(null);
+    }
+
     private boolean isPermission() {
         return ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) == PackageManager.PERMISSION_GRANTED;
     }
