@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:name=".MyApplication"
@@ -22,7 +23,8 @@
         <activity android:name=".ExternalActivity" />
         <activity android:name=".SharedActivity" />
         <activity android:name=".AddressActivity" />
-        <activity android:name=".AddressAddActivity"></activity>
+        <activity android:name=".AddressAddActivity" />
+        <activity android:name=".ContactsActivity"></activity>
     </application>
 
 </manifest>
